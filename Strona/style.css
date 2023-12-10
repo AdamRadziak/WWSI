@@ -1,0 +1,76 @@
+.html {
+    font-size: medium ;
+    box-sizing: border-box;
+}
+
+body { margin: 0; }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% auto auto auto auto;
+    grid-template-rows: 25% 40% 40% 35% 35% 20%;
+}
+
+.grid-container>div {
+    text-align: center;
+    text-wrap: wrap;
+    color: rgba(1, 1, 1, 0.8);
+    gap: 5px;
+    padding: 5px;
+}
+
+.menu {
+    background-color:rgba(4, 89, 112, 0.692);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    display: inline-flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+#logo {
+    width: 7em;
+    height: 4em;
+    margin: 0;
+}
+
+.menuitems{
+    width: 5em;
+    height: 5em;
+    padding-top: 8px;
+}
+
+.Content1 {
+    background-color:rgb(255, 255, 255,0.9);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.Content2 {
+    background-color:rgb(255, 255, 255,0.9);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.Content3 {
+    background-color:rgb(255, 255, 255,0.9);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.Footer {
+    background-color:rgba(10, 122, 153, 0.692);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+
